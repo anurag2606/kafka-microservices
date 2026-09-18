@@ -1,0 +1,13 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: Notification
+
+
+
+  kafka:
+    consumer:
+      bootstrap-servers: kafka:9093
+      group-id: notification-group
+      auto-offset-reset: earliest
